@@ -1,0 +1,2 @@
+# CSS calc() Pitfalls
+This repository demonstrates some uncommon errors that can occur when using the `calc()` function in CSS.  The `bug.css` file showcases problematic code, while `bugSolution.css` offers corrected versions.  Pay close attention to operator precedence, units, and consistency to avoid unexpected layout behavior.
