@@ -1,0 +1,20 @@
+/* bugSolution.css */
+#element {
+  width: calc(50% - 10px);
+  /* Correct: Explicitly specifying units for all values. */
+  height: calc(100px + 2em); /*Correct: Consistent unit usage */
+  margin: calc((100% - 200px) / 2);
+  /* Correct, Using parentheses to enforce the order of operations */ 
+}
+
+/*Adding another example to demonstrate unit consistency*/
+.anotherElement {
+  width: calc(50% - 2em); /* Correct, using consistent length units */
+}
+
+/*Incorrect examples from bug.css*/
+/*.incorrect-element {
+ width: calc(50% - 10); /* Incorrect: Missing unit for 10 */
+ height: calc(100px + 2em - 10%); /* Incorrect: Mixing length and percentage units improperly */
+ margin: 100% - 200px / 2; /* Incorrect: Order of operations and missing calc() */
+}*/
